@@ -1,0 +1,65 @@
+
+@media screen and (min-width: 375px) {
+
+body {
+  background-image: url('../../assets/markdown.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;  
+}
+
+.Title {
+  font-family: 'Futura', sans-serif;
+  font-size: 30pt;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin: .2em;
+  letter-spacing: .02em;
+  color: rgb(225, 22, 243);
+  -webkit-text-stroke: 1.5pt black;
+  text-shadow: .5pt .5pt white;
+  }
+  h3 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: .2em;
+    font-size: 12px;
+    letter-spacing: .02em;
+    color: rgb(225, 22, 243);
+    margin-bottom: 1.5em;
+    -webkit-text-stroke: .2pt black;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  body {
+    background-position: right top;  
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-position: top bottom; 
+    background-image: url('https://img.washingtonpost.com/pbox.php?url=https://www.washingtonpost.com/news/the-intersect/wp-content/uploads/sites/32/2016/02/crash.gif&op=noop');
+    margin: 20px;
+  }
+  .Title {
+    -webkit-text-stroke: .2pt black;
+    text-shadow: 1pt 1pt black;
+    color:white;
+    writing-mode: vertical-rl;
+    text-orientation: top;
+    float: right;
+    font-size: 75px;
+    letter-spacing: .02em;
+  }
+  div {
+    margin: 0;
+  }
+  h3 {
+    font-size: 20px;
+    text-shadow: 1pt 1pt black;
+    color: white;
+  }
+}

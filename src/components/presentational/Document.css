@@ -1,0 +1,21 @@
+.Document {
+  display: flex;
+}
+
+
+@media screen and (min-width: 375px) {
+  .Document {
+    background: white;
+    height: 400px;
+    font-family: 'Futura', sans-serif;
+  }
+} 
+
+@media screen and (min-width: 600px) {
+  .Document {
+    background: white;
+    height: 50em;
+    font-family: 'Futura', sans-serif;
+    border: 1pt solid black;
+  }
+} 
