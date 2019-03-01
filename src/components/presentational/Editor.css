@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+@media screen and (min-width: 375px) {
+  .Editor{
+    background: rgb(67, 65, 65);
+    width: 50%;
+    color: white;
+    font-family: 'VT323', monospace;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .Editor{
+    background: rgb(67, 65, 65);
+    border: 1pt solid black;
+    color: white;
+    margin: 0;
+    font-size: 20pt;
+  }
+}
